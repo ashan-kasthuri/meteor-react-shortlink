@@ -34,7 +34,7 @@ export default class Login extends React.Component {
             />
             <button className="button">Login</button>
           </form>
-          <Link to={AppRoutes.signup.path}>Have an account?</Link>
+          <Link to={AppRoutes.signup.path}>Don't have an account?</Link>
         </div>
       </div>
     );
